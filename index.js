@@ -28,11 +28,8 @@ app.use(bodyParser.json());
 
 
 // SMTP Credentials
-// const senderEmail = "muzamilkhanofficial786@gmail.com";
-// const senderPassword = "iaqu xvna tpix ugkt";
-
-const senderEmail = "laibaimran910@gmail.com";
-const senderPassword = "qlqy ozpj napw topa";
+const senderEmail = "muzamilkhanofficial786@gmail.com";
+const senderPassword = "iaqu xvna tpix ugkt";
 
 // Create a transporter
 const transporter = nodemailer.createTransport({
