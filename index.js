@@ -140,6 +140,7 @@ app.post("/send-booking-email", async (req, res) => {
             <p style="font-size: 16px;"><strong>Date:</strong> ${bookingDate || "Not Available"}</p>
             <p style="font-size: 16px;"><strong>Time:</strong> ${bookingTime || "Not Available"}</p>
             <p style="font-size: 16px; color: #4CAF50;"><strong>Total Price:</strong> ${totalPrice || "Not Available"}</p>
+            <p style="font-size: 14px;"><strong>The payment is non refundable as we charge 50% on your selected the service fee</strong></p>
           </div>
   
           <!-- Footer -->
